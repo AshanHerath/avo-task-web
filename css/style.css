@@ -804,7 +804,6 @@ a{
 }
 
 .recent-blog-container{
-    width: 100%;
     flex-direction: column;
     width: 1000px;
 }
@@ -900,3 +899,173 @@ a{
 }
 
 /* recent blog */
+
+/* footer */
+
+.avo-footer{
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    background-color: #000;
+}
+
+.footer-container{
+    height: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content{
+    display: flex;
+    /* display: flex;
+    justify-content: center;*/
+    margin: 100px auto; 
+}
+
+.avo-outer{
+    width: 200px;
+    margin-right: 40px;
+}
+
+.content-outer{
+    height: 100%;
+    /* height: 100%; */
+}
+
+.same-content{
+    width: 170px;
+    display: flex;
+    /* padding: 30px;
+    margin: 0 20px; */
+}
+
+.content-avo{
+    width: 170px;
+}
+
+.content-avo h2{
+    color: #fff;
+}
+
+.content-avo p{
+    color: #B1B1B1;
+    margin-bottom: 30px;
+}
+
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon li{
+    padding: 10px;
+    background-color: #1A1A1A;
+    border-radius: 50%;
+    color: #B1B1B1;
+    list-style: none;
+    margin: 10px;
+}
+
+.social-icon li span{
+    padding: 5px;
+    background-color: #1A1A1A;
+    border-radius: 50%;
+    color: #8D8D8D;
+}
+
+.footer-headders{
+    color: #fff;
+    font-size: 18px;
+    margin: 30px 0;
+}
+
+.footer-list li a span{
+    margin-right: 10px;
+    color: #B1B1B1;
+}
+
+.footer-list li a{
+    margin-bottom: 40px;
+    color: #B1B1B1;
+}
+
+.content-questions{
+    width: 230px;
+}
+
+.questions-inner{
+    width: 200px;
+}
+
+.contact-details ul li{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+}
+
+.contact-details ul li .contact{
+    width: 100%;
+}
+
+
+.contact-icon{
+    margin-right: 20px;
+    color: #8D8D8D;
+}
+
+.contact{
+    width: 40px;
+    color: #8D8D8D;
+}
+
+.copyright{
+    margin-bottom: 150px;
+}
+
+.copyright-text{
+    color: #fff;
+}
+
+.copyright-text p a{
+    color: #D1002C;
+}
+
+@media screen and (max-width: 600px) {
+
+    .avo-footer{
+        width: 100%;
+        height: 100%;
+        margin-top: 100px;
+    }
+
+    .content-avo p{
+        width: 400px;
+    }
+
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .copyright-text{
+        margin: 20px;
+    }
+
+    .copyright-text p{
+        text-align: center;
+    }
+
+    .footer-content{
+        width: 100%;
+        padding:  10px;
+    }
+
+    .contact{
+        width: 300px;
+        color: #8D8D8D;
+    }
+}
+
+/* footer */
