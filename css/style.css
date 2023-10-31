@@ -699,6 +699,196 @@ a{
 
 /* about us */
 
+/* our work */
+
+.works-section{
+    width: 100%;
+    height: wrap;
+}
+
+.works-section-row{
+    display: flex;
+    justify-content: center;
+}
+
+.heading-text{
+    margin-bottom: 100px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-style: bold;
+    font-weight: 100;
+    padding: 30px;
+
+}
+
+.works-container{
+    width: 100%;
+    height: wrap;
+    position: relative;
+    display: flex;
+    flex-direction: column ;
+}
+
+.works-content{
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-wrap{
+    width: 1000px;
+    display: flex;
+    margin-top: -70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.works-img{
+    width: 500px;
+    height: 600px;
+    background-size: cover;
+    background-clip: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../images/our-work-1.jpg);
+}
+
+.works-top-outer{
+    margin: 0 60px;
+}
+
+.works-middle-outer{
+    width: 460px;
+    height: wrap;
+    display: flex;
+}
+
+.works-bottom-outer{
+    display: flex;
+    align-items: center;
+    align-items: right;
+}
+
+.works-description{
+    height: 400px;
+}
+
+.description-top{
+    margin: 15px 0;
+}
+
+.sub-header{
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.main-header a{
+    font-size: 40px;
+    color: #000 !important;
+}
+
+.description-bottom {
+    
+}
+
+.right{
+
+}
+
+.description-bottom p{
+    color: #B1B1B1;
+    margin: 15px 0;
+}
+
+.woker-details{
+    display: flex;
+    align-items: center;
+}
+
+.woker-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/client-1.jpg)
+}
+
+.woker-name{
+    margin: 0 20px;
+}
+
+.woker-name h4{
+    color: #0008;
+}
+
+.woker-name span{
+    color: #B1B1B1;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.view-btn{
+    display: inline-block;
+    margin: 30px 0;
+    font-size: 13px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    letter-spacing: 3px;
+    color: #000;
+    border: 1px solid #B1B1B1;
+}
+
+@media screen and (max-width: 600px) {
+
+    .works-section{
+        width: 600px;
+        margin: 0 !important;
+        background-color: #FA5959;
+    }
+
+    .works-bottom-outer{
+        background-color: #2F2F2F;
+    }
+
+    .content-wrap{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .works-img{
+        width: 600px !important;
+        background-color: #D1002C;
+        
+    }
+
+    .works-description{
+        width: 600px !important;
+        background-color: #B1B1B1;
+    }
+
+    .works-middle-outer{
+        width: 600px !important;
+        background-color: #FA5959;
+    }
+
+    .works-top-outer{
+        width: 600px !important;
+        background-color: #FA5959;
+    }
+
+    .works-container{
+        width: 600px;
+        background-color: #FA5959;
+    }
+}
+
+/* our works */
 
 /* Clients Says */
 
@@ -1045,6 +1235,8 @@ a{
     }
 
     .footer-content{
+        width: 100%;
+        padding:  10px;
         display: flex;
         flex-direction: column;
     }
@@ -1055,11 +1247,6 @@ a{
 
     .copyright-text p{
         text-align: center;
-    }
-
-    .footer-content{
-        width: 100%;
-        padding:  10px;
     }
 
     .contact{
