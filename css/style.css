@@ -207,11 +207,11 @@ a{
     overflow: hidden;
 }
 
-.img-1 {
+.slider-img-1 {
     background-image: url(../images/banner_1.jpg);
 }
 
-.img-2 {
+.slider-img-2 {
     background-image: url(../images/banner_2.jpg);
 }
 
@@ -797,79 +797,106 @@ a{
 /* recent blog */
 
 .recent-blog-avo{
+    width: 100%;
     margin-top: 200px;
+    justify-content: center;
+    display: flex;
 }
 
 .recent-blog-container{
-    display: flex;
+    width: 100%;
     flex-direction: column;
-    
+    width: 1000px;
 }
 
 .blog-row{
+    margin-top: 100px;
     display: flex;
-    justify-content: center;
-}
-
-.blog-row{
-    border: 2px solid #D1002C;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .blog-row-outer{
-    border: 2px solid #c000d1;
+    margin: 0 10px;
 }
 
 .blog-row-inner{
-    border: 2px solid #00d18b;
-}
-
-.blog-content {
-    border: 2px solid #54d100;
-}
-
-.blog-content h3 {
-    border: 2px solid #0038d1;
+    height: wrap;
 }
 
 .blog-header{
     color: #000;
-    text-align: center;
+    text-align: left;
 }
 
 .blog-header a{
     color: #000;
+    font-size: 20px;
 }
 
 .blog{
-    border: 2px solid #6588eb;
+    width: 100% !important;
+    height: 300px;
+    margin-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
 }
 
-.img-1{
-
+.blog-img-1{
+    background-image: url(../images/blog-1.jpg);
 }
 
-.img-2{
-    
+.blog-img-2{
+    background-image: url(../images/blog-2.jpg);
 }
 
-.img-3{
-    
+.blog-img-3{
+    background-image: url(../images/blog-3.jpg);
 }
 
-.img-4{
-    
+.blog-img-4{
+    background-image: url(../images/blog-4.jpg);
 }
 
 .img-data{
-
+    width: 100%;
+    display: flex;
+    margin: 20px 0;
+    padding-right: 25px;
+    justify-content: space-between;
 }
 
 .img-data a{
-    
+    font-size: 14px !important;
+    text-transform: uppercase;
+    color: #000;
 }
 
 .blog-content p{
+    font-size: 16px !important;
+}
 
+.blog-header a:hover{
+    color: #D1002C;
+}
+
+@media screen and (max-width: 600px) {
+    .blog-row{
+        flex-direction: column;
+    }
+
+    .img-data{
+        width: 50%;
+        display: flex;
+        margin: 20px 0;
+        padding-right: 25px;
+    }
+
+    .blog-row-outer{
+        margin-top: 50px;
+    }
 }
 
 /* recent blog */
