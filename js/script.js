@@ -93,4 +93,8 @@ const observer = new IntersectionObserver((entries) => {
 const hiddenEliments = document.querySelectorAll('.hidden');
 hiddenEliments.forEach((el)=> observer.observe(el));
     
+const slideContainer = document.querySelector('.slide-container');
+const slides = document.querySelectorAll('.slide');
+let currentIndex = 0;
+
 

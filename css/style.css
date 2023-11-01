@@ -771,7 +771,7 @@ a{
     height: wrap;
     position: relative;
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
 }
 
 .works-content{
@@ -783,7 +783,7 @@ a{
 }
 
 .content-wrap{
-    width: 1000px;
+    /* width: 1000px; */
     display: flex;
     margin-top: -70px;
     justify-content: center;
@@ -902,45 +902,16 @@ a{
 @media screen and (max-width: 600px) {
 
     .works-section{
-        width: 600px;
-        margin: 0 !important;
-        background-color: #FA5959;
-    }
-
-    .works-bottom-outer{
-        background-color: #2F2F2F;
+        width: wrap;
+        margin: 0;
     }
 
     .content-wrap{
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
-
-    .works-img{
-        width: 600px !important;
-        background-color: #D1002C;
-        
-    }
-
-    .works-description{
-        width: 600px !important;
-        background-color: #B1B1B1;
-    }
-
-    .works-middle-outer{
-        width: 600px !important;
-        background-color: #FA5959;
-    }
-
-    .works-top-outer{
-        width: 600px !important;
-        background-color: #FA5959;
-    }
-
-    .works-container{
-        width: 600px;
-        background-color: #FA5959;
-    }
+    
 }
 
 /* our works */
@@ -960,30 +931,9 @@ a{
     align-items: center;
 }
 
-.clients-content{
-    width: 100%;
-    height: wrap;
-    margin: 50px 0;
-    border: 2px solid #D1002C;
-}
-
-
-
 .heading-row{
     width: 100%;
 }
-
-
-.clients-content-inner{
-    border: 2px solid #D1002C;
-    width: 1000px;
-    height: 500px;
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .started-container{
     width: 1000px;
     height: 290px;
@@ -1021,6 +971,39 @@ a{
     color: #868686;
     margin: 15px 0;
     width: 400px;
+}
+
+
+  .slider {
+    width: 950px;
+    overflow: hidden;
+    display: flex;
+    margin: 40px 0;
+    justify-content: center;
+    background-color: #D1002C;
+}
+
+.slide-container {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    width: 300px;
+    margin: 0 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.clients-img {
+    width: 80px;
+    height: 80px;
+    background-color: #333;
+    border-radius: 50%;
+    margin: 10px auto;
 }
 
 
