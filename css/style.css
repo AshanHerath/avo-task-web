@@ -7,6 +7,17 @@
     box-sizing: border-box;
 }
 
+.hidden{
+    opacity: 0;
+    transition: all 1s;
+    transform: translateY(10%);
+}
+
+.show{
+    opacity: 1;
+    transform: translateY(-10%);
+}
+
 .animation {
     width: 100px;
     height: 100px;
@@ -60,6 +71,7 @@ a{
 }
 
 .navbar-container{
+    position: relative;
     width: 1000px;
     height: wrap;
     display: flex;
@@ -253,6 +265,16 @@ a{
     line-height: 110%;
 }
 
+.banner-slider-bottom {
+
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    bottom: -8%;
+    background-color: #FFFFFF;
+    clip-path: polygon(68% 66%, 100% 0, 100% 60%, 75% 100%, 35% 99%, 0 58%, 0 0);
+
+}
 
 .banner-btn{
     display: inline-block;
@@ -303,7 +325,10 @@ a{
     padding: 30px;
     border-radius: 50%;
     color: #000;
-    margin: 13.1% 30.8%;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 4%;
+    margin-right: 30.8%;
     cursor: pointer;
     animation-name: wave;
     animation-duration: 1.5s;
@@ -328,7 +353,7 @@ a{
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    bottom: 20px;
+    bottom: 30px;
     cursor: pointer;
 }
 
@@ -406,7 +431,7 @@ a{
     }
     
     .video-btn{
-        margin: 160px 260px;
+        margin: 130px 120px;
     }
 
     .slider-btn{
@@ -414,7 +439,7 @@ a{
         position: absolute;
         transform: translate(-50%);
         margin: 30px;
-        margin-bottom: 60px;
+        margin-bottom: 80px;
         cursor: pointer;
     }
 
@@ -439,6 +464,7 @@ a{
 }
 
 .content-row{
+    width: 300px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -453,10 +479,19 @@ a{
     text-align: center;
 }
 
+.heade-line{
+    width: 100%;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+}
+
 .services-row-up {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
 }
 
 .services {
@@ -507,6 +542,7 @@ a{
 }
 
 .welcome-row{
+    position: relative;
     width: 1000px;
     height: 400px;
 }
@@ -704,6 +740,15 @@ a{
 .works-section{
     width: 100%;
     height: wrap;
+    background-color: #F3F3F3;
+}
+
+.works-header{
+    width: auto;
+    height: 90px;
+    background-color: rgb(255, 255, 255);
+    clip-path: polygon(100% 0, 100% 91%, 33% 24%, 0 94%, 0 0);
+    margin-bottom: -60px;
 }
 
 .works-section-row{
@@ -772,6 +817,7 @@ a{
 }
 
 .works-description{
+    margin-top: 170px;
     height: 400px;
 }
 
@@ -844,6 +890,15 @@ a{
     border: 1px solid #B1B1B1;
 }
 
+.our-works-bottom{
+    height: 110px;
+    width: auto;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    clip-path: polygon(67% 87%, 82% 87%, 100% 0, 100% 100%, 0 100%, 0 0);
+    
+}
+
 @media screen and (max-width: 600px) {
 
     .works-section{
@@ -895,6 +950,7 @@ a{
 .clients-say-avo{
     height: wrap;
     margin-top: 200px;
+    padding-bottom: 200px;
 }
 
 .clients-container{
@@ -911,6 +967,8 @@ a{
 .clients-content{
     margin: 50px 0;
 }
+
+
 
 .clients-content-inner{
     display: flex;
@@ -988,9 +1046,16 @@ a{
 
 .recent-blog-avo{
     width: 100%;
-    margin-top: 200px;
     justify-content: center;
     display: flex;
+    background-color: #F3F3F3;
+}
+
+.recent-blog-head{
+    width: auto;
+    height: 90px;
+    background-color: rgb(255, 255, 255);
+    clip-path: polygon(100% 0, 100% 91%, 33% 24%, 0 94%, 0 0);
 }
 
 .recent-blog-container{
@@ -1086,6 +1151,10 @@ a{
     .blog-row-outer{
         margin-top: 50px;
     }
+
+    .recent-blog-header{
+        padding: 50px;
+    }
 }
 
 /* recent blog */
@@ -1095,7 +1164,7 @@ a{
 .avo-footer{
     width: 100%;
     height: 100%;
-    margin-top: 100px;
+    padding-top: 100px;
     background-color: #000;
 }
 
@@ -1227,7 +1296,6 @@ a{
     .avo-footer{
         width: 100%;
         height: 100%;
-        margin-top: 100px;
     }
 
     .content-avo p{
