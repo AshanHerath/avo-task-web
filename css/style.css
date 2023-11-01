@@ -960,19 +960,28 @@ a{
     align-items: center;
 }
 
+.clients-content{
+    width: 100%;
+    height: wrap;
+    margin: 50px 0;
+    border: 2px solid #D1002C;
+}
+
+
+
 .heading-row{
     width: 100%;
 }
 
-.clients-content{
-    margin: 50px 0;
-}
-
-
 
 .clients-content-inner{
+    border: 2px solid #D1002C;
+    width: 1000px;
+    height: 500px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .started-container{

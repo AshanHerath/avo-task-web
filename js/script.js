@@ -5,6 +5,8 @@ const logo = document.querySelector(".navbar-logo");
 const nav = document.querySelector(".navbar-list");
 const projectsCount = document.getElementById('successful-projects');
 const experienced = document.getElementById('experienced');
+const menu = document.getElementById('menu-btn');
+
 
 const targetValue2 = 21;
 const targetValue1 = 400;
