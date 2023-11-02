@@ -134,10 +134,23 @@ let currentIndex = 0;
 $(function() {
   // Owl Carousel
   var owl = $(".owl-carousel");
+  var itemCount = 3;
+
+  window.addEventListener("resize", function() {
+    if (window.innerWidth <= 600) {
+      itemCount = 1;
+      console.log("Item Count: " + itemCount);
+    } else {
+      itemCount = 3;
+    }
+});
+
   owl.owlCarousel({
-    items: 3,
+    items: itemCount,
     margin: 10,
     loop: false,
     nav: true
+
+    
   });
 });

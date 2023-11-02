@@ -1020,6 +1020,10 @@ a{
     background-image: url(../images/client-1.jpg)
 }
 
+.woker-7{
+    background-image: url(../images/client-1.jpg)
+}
+
 @media screen and (max-width: 600px) {
 
     .works-section{
@@ -1076,13 +1080,13 @@ a{
 
 .view-btn-left{
     position: absolute;
+    width: 150px;
     margin: 30px 0;
     font-size: 13px;
     padding: 5px 10px;
     border-radius: 5px;
     letter-spacing: 3px;
     left: 0;
-    width: auto;
     color: #000;
     border: 1px solid #B1B1B1;
 }
@@ -1271,11 +1275,13 @@ a{
 } */
 
 .clients-slider{
+    position: relative;
     width: 1100px;
     margin: 100px 200px;
 }
 
 .clients-slider-container{
+    position: absolute;
     width: 900px;
     margin: 100px 0;
     border-radius: 50px;
@@ -1336,6 +1342,7 @@ a{
 @media screen and (max-width: 600px) {
 
     .clients-say-avo{
+        position: relative;
         padding-bottom: 100px;
     }
 
@@ -1362,6 +1369,10 @@ a{
         width: 340px;
     }
 
+    .item{
+        margin-right: 100px;
+    }
+
     .clients-slider{
         width: 450px;
         margin: 100px 200px;
@@ -1376,6 +1387,7 @@ a{
     .content-text{
         display: flex;
         flex-direction: column;
+        margin-right: 200px;
         justify-content: center;
         align-items: center;
         padding: 20px;
@@ -1387,18 +1399,20 @@ a{
 /* recent blog */
 
 .recent-blog-avo{
+    position: relative;
     width: 100%;
     height: wrap;
+    padding-top: 200px;
     justify-content: center;
     display: flex;
     background-color: #F3F3F3;
 }
 
 .recent-blog-head{
+    position: absolute;
     background-color: #16b916;
     width: auto;
     height: 90px;
-    margin-top: -300px;
     background-color: #F3F3F3;
     clip-path: polygon(100% 0, 100% 91%, 33% 24%, 0 94%, 0 0);
 }
