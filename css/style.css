@@ -936,7 +936,6 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-image: url(../images/client-1.jpg)
 }
 
 .woker-name{
@@ -982,6 +981,45 @@ a{
     
 }
 
+.work-img-1{
+    background-image: url(../images/our-work-1.jpg)
+}
+
+.work-img-2{
+    background-image: url(../images/our-work-2.jpg)
+}
+.work-img-3{
+    background-image: url(../images/our-work-3.jpg)
+}
+.work-img-4{
+    background-image: url(../images/our-work-4.jpg)
+}
+.work-img-5{
+    background-image: url(../images/our-work-5.jpg)
+}
+.work-img-6{
+    background-image: url(../images/our-work-6.jpg)
+}
+
+.woker-1{
+    background-image: url(../images/client-1.jpg)
+}
+.woker-2{
+    background-image: url(../images/client-2.jpg)
+}
+.woker-3{
+    background-image: url(../images/client-3.jpg)
+}
+.woker-4{
+    background-image: url(../images/client-2.jpg)
+}
+.woker-5{
+    background-image: url(../images/client-3.jpg)
+}
+.woker-6{
+    background-image: url(../images/client-1.jpg)
+}
+
 @media screen and (max-width: 600px) {
 
     .works-section{
@@ -992,6 +1030,7 @@ a{
 
     .content-wrap{
         width: 450px;
+        height: 1400px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1062,16 +1101,19 @@ a{
 
 /* =========== */
 
+.content-wrap{
+    position: relative;
+}
 
 .mob-res-top{
+    position: absolute;
     margin-bottom: 100px;
-    border: 2px solid #c90c0c;
-    margin-bottom: -500px;
+    bottom: 0;
 }
 
 .mob-res-img{
-    border: 2px solid #16b916;
-    margin-top: -500px;
+    position: absolute;
+    top: 0;
 }
     
 }
@@ -1346,16 +1388,18 @@ a{
 
 .recent-blog-avo{
     width: 100%;
+    height: wrap;
     justify-content: center;
     display: flex;
-    padding-top: 200px;
     background-color: #F3F3F3;
 }
 
 .recent-blog-head{
+    background-color: #16b916;
     width: auto;
     height: 90px;
-    background-color: rgb(255, 255, 255);
+    margin-top: -300px;
+    background-color: #F3F3F3;
     clip-path: polygon(100% 0, 100% 91%, 33% 24%, 0 94%, 0 0);
 }
 
