@@ -452,7 +452,7 @@ a{
 .about-avo{
     width: 100%;
     height: wrap;
-    margin-top: 200px;
+    padding-top: 100px;
 }
 
 .container{
@@ -479,13 +479,6 @@ a{
     text-align: center;
 }
 
-.heade-line{
-    width: 100%;
-    font-size: 25px;
-    text-transform: uppercase;
-    font-weight: 800;
-    text-align: center;
-}
 
 .services-row-up {
     display: flex;
@@ -783,7 +776,7 @@ a{
 }
 
 .content-wrap{
-    /* width: 1000px; */
+    width: 1000px;
     display: flex;
     margin-top: -70px;
     justify-content: center;
@@ -988,8 +981,9 @@ a{
 
 .clients-say-avo{
     height: wrap;
-    margin-top: 200px;
     padding-bottom: 200px;
+    padding-top: 100px;
+    background-color: #fff;
 }
 
 .clients-container{
@@ -1108,6 +1102,7 @@ a{
     width: 100%;
     justify-content: center;
     display: flex;
+    padding-top: 200px;
     background-color: #F3F3F3;
 }
 
