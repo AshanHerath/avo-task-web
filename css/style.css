@@ -1027,14 +1027,14 @@ a{
 @media screen and (max-width: 600px) {
 
     .works-section{
-        width: wrap;
+        width: 420px;
         height: wrap;
         margin: 0;
     }
 
     .content-wrap{
-        width: 450px;
-        height: 1400px;
+        width: 420px;
+        height: 1300px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1050,10 +1050,17 @@ a{
 
     .works-img{
         margin: auto;
-        width: 450px;
+        width: 400px;
     }
 
     /* ========== */
+
+    .works-description{
+        width: 380px;
+        margin-top: 170px;
+        height: 400px;
+        margin-left: 50px;
+    }
 
 .description-top-left h2{
     text-align: left;
@@ -1379,12 +1386,13 @@ a{
     }
 
     .clients-slider-container{
-        width: auto;
+        width: 100%;
         margin: 1000px 0;
         border-radius: 50px;
     }
 
     .content-text{
+        width: 400px;
         display: flex;
         flex-direction: column;
         margin-right: 200px;
@@ -1410,7 +1418,6 @@ a{
 
 .recent-blog-head{
     position: absolute;
-    background-color: #16b916;
     width: auto;
     height: 90px;
     background-color: #F3F3F3;
