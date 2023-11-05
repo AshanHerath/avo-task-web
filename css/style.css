@@ -1027,7 +1027,7 @@ a{
 @media screen and (max-width: 600px) {
 
     .works-section{
-        width: 420px;
+        width: auto;
         height: wrap;
         margin: 0;
     }
